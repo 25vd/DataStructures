@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MyTreeSet
+comment0.text=\n\ My\ Tree\ set\ class,\ has\ various\ methods\ for\ trees\n\ \n\ @author\ Vedant\ Yadav\n\ \n\ @version\ 12/12/23\n
+comment1.params=
+comment1.target=MyTreeSet()
+comment1.text=\n\ Constructor\ for\ MyTreeSet\ class\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\n\ Returns\ the\ size\n\ \n\ @return\ size\ the\ size\n
+comment3.params=obj
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=\n\ Returns\ whether\ or\ not\ it\ contains\ obj\n\ \n\ @param\ obj\ the\ object\ to\ be\ checked\n\ \n\ @return\ whether\ or\ not\ obj\ is\ contained\ in\ the\ BST\n
+comment4.params=obj
+comment4.target=boolean\ add(java.lang.Object)
+comment4.text=\n\ Finds\ whether\ or\ not\ obj\ is\ present\ in\ the\ set,\ adds\ it\ if\ it\ isn't\n\ \n\ @param\ obj\ the\ object\ to\ be\ added\n\ \n\ @return\ true\ if\ obj\ is\ not\ present;\n\ \ \ \ \ \ \ \ \ otherwise,\ false\n
+comment5.params=obj
+comment5.target=boolean\ remove(java.lang.Object)
+comment5.text=\n\ Removes\ obj\ if\ obj\ is\ present\ in\ the\ set.\n\n\ @param\ obj\ the\ object\ to\ be\ removed\n\ \n\ @return\ true\ if\ obj\ is\ in\ the\ set;\n\ \ \ \ \ \ \ \ \ otherwise,\ false\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Converts\ the\ root\ to\ a\ string\n\ \n\ @return\ the\ root\ converted\ to\ a\ string\n
+comment7.params=t
+comment7.target=java.lang.String\ toString(TreeNode)
+comment7.text=\n\ Converts\ a\ TreeNode\ to\ a\ string\n\ \n\ @return\ the\ TreeNode\ converted\ to\ a\ string\n
+numComments=8

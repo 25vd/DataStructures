@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BinaryTreeTester
+comment1.params=
+comment1.target=void\ test()
+comment2.params=value
+comment2.target=void\ sendValue(java.lang.Object)
+comment2.text=\n\ called\ by\ the\ display\ object\ to\ send\ back\ the\ node\ value\n\ when\ a\ node\ is\ visited\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Create\ a\ BinaryTreeTester\ object\ and\ run\ the\ tests\n
+numComments=4

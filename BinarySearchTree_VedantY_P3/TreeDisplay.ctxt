@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.target=TreeDisplay
+comment0.text=\n\ A\ graphical\ component\ for\ displaying\ the\ contents\ of\ a\ binary\ tree.\n\ The\ following\ methods\ are\ designed\ for\ interacting\ with\ the\ display\:\n\ \ \ \ \ \ Default\ constructor\ TreeDisplay()\n\ \ \ \ \ \ displayTree(TreeNode\ someTree)\n\ \ \ \ \ \ visit(TreeNode\ someNode)\n\ \ \ \ \ \ setDelay(int\ time)\ \ useful\ for\ debugging\ or\ demonstrating\ \n\ The\ displayTree\ method\ creates\ the\ initial\ display\ of\ the\ tree.\ \ It\ clears\ the\ component\n\ and\ paints\ the\ tree\n\ The\ visit\ method\ changes\ the\ background\ color\ of\ the\ node\ defined\ in\ the\ parameter\n\ sample\ Useage\:\n\ TreeDisplay\ display\ \=\ new\ TreeDisplay();\n\ display.displayTree(someTree);\n\ display.visit(someNode);\n\ \n\ \n\ @author\ DaveF\n\ @author\ RichardP\n\ @author\ MarinaP\ \ \n\ @version\ 102613\n\ \ \ \ \ \ \ \ \ \ added\ setDelay\n\ @version\ 04\ 23\ 19\n\ \ \ \ \ \ \ \ \ \ changed\ so\ that\ subsequent\ windows\ locations\ are\ offset\ slightly.\ \ \n\ \n\ @version\ 11\ 12\ 19\ \n\ \ \ \ \ \ \ \ \ \ Merged,\ added\ the\ tester\ to\ return\ the\ value\ visited.\ \n\ @version\ Jan\ 2020\n\ \ \ \ \ \ \ \ \ \ added\ setTitle,\ made\ frame\ a\ field.\ \ \n\n
+comment1.params=
+comment1.target=TreeDisplay()
+comment10.params=t
+comment10.target=void\ visit(TreeNode)
+comment10.text=\n\ visit\ changes\ the\ background\ color\ of\ the\ node\ given\ in\ the\ parameter\ to\ yellow,\n\ lighting\ up\ the\ node\ to\ indicate\ we\ are\ visiting\ it.\n\ @param\ t\ the\ node\ to\ light\ up\n\ postcondition\:\ the\ background\ color\ on\ the\ display\ for\ the\ selected\ node\ is\ changed\ to\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ yellow\n
+comment11.params=delay
+comment11.target=void\ setDelay(int)
+comment12.params=title
+comment12.target=void\ setTitle(java.lang.String)
+comment13.params=tester
+comment13.target=void\ setTester(BinaryTreeTester)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=title
+comment3.target=TreeDisplay(java.lang.String)
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ updateXyOffset()
+comment6.params=
+comment6.target=java.awt.Dimension\ getPreferredSize()
+comment7.params=g
+comment7.target=void\ paint(java.awt.Graphics)
+comment8.params=g2\ t\ minX\ maxX\ y\ yIncr
+comment8.target=void\ drawTree(java.awt.Graphics2D,\ TreeNode,\ int,\ int,\ int,\ int)
+comment9.params=root
+comment9.target=void\ displayTree(TreeNode)
+comment9.text=\n\ displayTree\ tells\ the\ component\ to\ switch\ to\ displaying\ the\ given\ tree\n\ @param\ root\ is\ the\ root\ of\ the\ tree\ to\ display\n\ postcondition\:\ the\ component\ displays\ the\ tree\ defined\ by\ root\n
+numComments=14
